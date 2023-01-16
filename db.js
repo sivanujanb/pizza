@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-var mongoURL = 'mongodb://127.0.0.1:27017/mern-pizza'
+var mongoURL = 'mongodb://175.157.43.15/32 /mern-pizza'
 
 mongoose.connect(mongoURL , {useUnifiedTopology:true , useNewUrlParser:true})
 
